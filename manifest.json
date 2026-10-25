@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Stud.IP PDF in New Tab",
+  "version": "1.0.0",
+  "description": "Opens PDFs from Stud.IP in a normal browser tab instead of the Stud.IP popup.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
