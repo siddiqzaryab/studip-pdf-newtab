@@ -20,6 +20,3 @@ Works in Chrome, Edge, Brave and Arc.
 - **PDF downloads instead of opening:** your Stud.IP forces downloads, which the extension can't change.
 - **Popup still appears:** [open an issue](../../issues) with the HTML of the PDF link (right-click it, **Inspect**).
 
-## License
-
-[MIT](LICENSE)
